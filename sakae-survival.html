@@ -1470,7 +1470,7 @@ const STATS=[
   d:'พลังสูงสุด +6 · ใช้พลังต่อครั้งน้อยลง 1.5% · พักฟื้นเร็วขึ้น'},
 ];
 const SKEYS=STATS.map(s=>s.k);
-const SP_PER_LV=5;   // เลเวลอัป 1 ครั้ง ได้ 5 แต้ม
+const SP_PER_LV=10;   // เลเวลอัป 1 ครั้ง ได้ 10 แต้ม
 function stsInit(){
   if(!S.sts||typeof S.sts!=='object')S.sts={};
   SKEYS.forEach(k=>{if(typeof S.sts[k]!=='number')S.sts[k]=0;});
